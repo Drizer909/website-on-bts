@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+font-family: 'Supermercado One', cursive;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,1.75)),url("wall.png");
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+img{
+    width: 160px;
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav li{
+    list-style: none;
+    /* text-decoration: none; */
+    display: inline-block;
+    margin-left: 55px;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: rgb(203, 176, 211);
+    font-weight: bold;
+    font-style: italic;
+}
+.row{
+    display: flex;
+    align-items: center;
+    height: 88%;
+}
+.col{
+    flex-basis: 50%;
+}
+button{
+    width: 163px;
+    margin-left: 60px;
+    border-radius: 105px;
+    font-size: 1rem;
+    font-weight: bolder;
+    border: 0;
+    margin-top: 44px;
+    height: 53px;
+
+}
+.card {
+    width: 200px;
+    height: 250px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 15px,25px;
+    cursor: pointer;
+    margin: 10px,15px;
+    background-image: url("v.jfif");
+    background-size: cover;
+    background-position: center;
+    border-radius: 48px;
+    transition: transform 0.5s;
+}
+#jimin{
+    background-image: url("jimin.jpg");
+    /* background-size: 100%; */
+}
+#rm{
+    background-image: url("rm.jpg");
+}
+#junk{
+    background-image: url("jk.jpg");
+}
+.card{
+    transition: transform 0.5s;
+}
+.card:hover{
+    transform:translate(-57px,-43px);
+}
+.card{
+    transition: transform 0.5;
+}
+div h1{
+    font-size: 8rem;
+    text-align: center;
+    color: rgb(185, 184, 120)
+}
+div p{
+    color: rgb(221, 207, 177);
+}
